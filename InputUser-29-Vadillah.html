@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <title>DAFTAR HIGIRLS </title>
+</html>
+<style>
+    *{
+        font-family: Comic Sans MS
+    }
+ </style>
+
+<h1>XI RPL 6 / 29</h1>
+    <h2>Pendaftaran hiGirls!</h2>
+    Nama Lengkap 
+    <td>:</td>
+    <input type="text" id="nama"> <br>
+    E-Mail       
+    <td>:</td>
+    <input type="text" id="inputemail"> <br>
+    Negara       
+    <td>:</td> 
+    <select id="Negara">
+        <option value="Indonesia">Indonesia</option>
+        <option value="Malaysia">Malaysia</option>
+        <option value="Thailand">Thailand</option>
+        <option value="Singapura">Singapura</option>
+        <option value="Filiphina">Filiphina</option>
+        <option value="Kamboja">Kamboja</option>
+        <option value="Korea">Korea</option>
+        <option value="Jepang">Jepang</option> 
+        <option value="China">China</option>
+        <option value="Inggris">Inggris</option>
+        <option value="Spanyol">Spanyol</option>
+        <option value="Jerman">Jerman</option>
+        <option value="Amerika">Amerika</option>
+        <option value="Turki">Turki</option>
+        <option value="Arab">Arab</option>
+
+    </select> <br>
+    Tahun Lahir   
+    <td>:</td>
+    <select id="lahir">
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+    </select> <br>
+    Gender        
+    <td>:</td>
+    <td>
+    <input type="radio" name="gender" value="Pria"> Pria</br>
+    <input type="radio" name="gender" value="Wanita"> Wanita</br>
+    <input type="radio" name="gender" value="Gender Tidak Terdefinisi"> Tidak Terdefinisi </br>
+    </td>
+    <br>
+    <button id="btn" onclick="ambilData()">Daftar</button> <br>
+
+
+    <table>
+        <b style='display:none' id="welcome">Selamat Datang di hiGirls!</b>
+        <tr>
+            <tr>
+            <td><b>Nama Lengkap </b></td>
+            <td>:</td>
+            <td><b id="demo"></b></td>
+        </tr>
+        <tr>
+            <td><b>E-Mail </b></td>
+            <td>:</td>
+            <td><b id="displayemail"></b></td>
+        </tr>
+        <tr>
+            <td><b>Negara </b></td>
+            <td>:</td>
+            <td><b id="displaynegara"></b></td>
+        </tr>
+        <tr>
+            <td><b>Tahun Lahir </b></td>
+            <td>:</td>
+            <td><b id="displaylahir"></b></td>
+        </tr>
+        <tr>
+            <td><b>Gender </b></td>
+            <td>:</td>
+            <td><b id="displayGender"></b></td>
+        </tr>
+        </tr>
+    </table>
+        
+        <script src="InputUser.js"></script>
